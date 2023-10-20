@@ -1,0 +1,27 @@
+{
+  "name": "studion",
+  "version": "0.0.1",
+  "description": "Repository for practicing html / css / js / nodejs",
+  "main": "src/index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alanlfreitas/studion.git"
+  },
+  "keywords": [
+    "HTML",
+    "CSS",
+    "JAVASCRIPT"
+  ],
+  "author": "Freitas, Alan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alanlfreitas/studion/issues"
+  },
+  "homepage": "https://github.com/alanlfreitas/studion#readme",
+  "devDependencies": {
+    "live-server": "^1.2.2"
+  }
+}
