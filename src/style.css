@@ -22,10 +22,6 @@ ul {
     padding-left: 0;
 }
 
-.li {
-    margin-right: 0.625rem;
-}
-
 .navbar {
     position: fixed;
     z-index: 1;
@@ -142,4 +138,24 @@ ul {
     border-color: var(--color-primary--);
     background-color: var(--color-primary--);
     color: #fff;
+}
+
+#counter {
+    background-color: var(--color-primary--);
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.counter__container {
+    margin: 0;
+    padding: 4.375rem 1rem;
+}
+
+.counter__container h3 {
+    font-size: 2.1875rem;
+}
+
+.counter__container h3 small {
+    display: block;
+    font-size: 1.25rem;
 }
