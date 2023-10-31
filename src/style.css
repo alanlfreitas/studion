@@ -213,7 +213,30 @@ ul {
     margin-bottom: 2.5rem;
 }
 
+.btn--institutional {
+    border-color: var(--color-primary--);
+}
 .btn--institutional:hover {
-    color: var(--color-copy--);
-    background: unset;
+    color: #fff;
+    border-color: var(--color-primary--);
+    background: var(--color-primary--);
+}
+
+.quote {
+    background-image: url(./images/parallax.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.quote__container {
+    display: grid;
+    align-items: center;
+    justify-items: end;
+    min-height: 80vh;
+}
+
+.quote__copy {
+    background-color: #fff;
 }
